@@ -1,6 +1,10 @@
 # TanmayeeGujar.github.io
-##Fuzzy Controller Project for CSE 454 
+Fuzzy Controller Project for CSE 454 
+
+
 This Fuzzy controller works to make the agent (a robot with dimension 1x1 units) reach the user specified target, by using Fuzzy Logic. The space this robot is moving in can be considered to be a 20x20 grid. The user input is mapped to fuzzy membership functions of distance and theta, are then a rule-based approach is used to defuzzify the inputs and give out crisp output values in terms of the speed and change in angle. This output is then used in the next iteration of the controller, and so on, until the robot reaches the target. Each iteration has a timestamp of 100 ms.
+
+
 To run the program:
 1. Download and run the FuzzyController.m file in MATLAB online account
 2. In the command window, the following prompts for user input will appear:
